@@ -8,7 +8,17 @@
 
 import UIKit
 
+public enum sbName : String {
+    case main = "Main"
+}
+
 extension UIViewController {
+    
+    func loadVC(_ clas: AnyClass,_ storyboard:sbName = sbName.main)->UIViewController{
+        let storyboard = UIStoryboard(name: storyboard.rawValue, bundle: nil)
+        return storyboard.instantiateViewController(withIdentifier :String(describing: clas))
+    }
+    
     func push(_ viewController: UIViewController, animated: Bool = true ){
         if let nav = self.navigationController {
             nav.pushViewController(viewController, animated: animated)

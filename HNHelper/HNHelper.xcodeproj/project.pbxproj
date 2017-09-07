@@ -17,7 +17,6 @@
 		7E812DB81F60FDC6007CD13A /* HNFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DAC1F60FDC6007CD13A /* HNFont.swift */; };
 		7E812DBC1F60FDC6007CD13A /* HNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DB01F60FDC6007CD13A /* HNNotificationCenter.swift */; };
 		7E812DBD1F60FDC6007CD13A /* HNPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DB11F60FDC6007CD13A /* HNPushNotification.swift */; };
-		7E812DBF1F60FDC6007CD13A /* HNRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DB31F60FDC6007CD13A /* HNRouter.swift */; };
 		7E812DC01F60FDC6007CD13A /* HNShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DB41F60FDC6007CD13A /* HNShare.swift */; };
 		7E812DC11F60FDC6007CD13A /* HNUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DB51F60FDC6007CD13A /* HNUserDefault.swift */; };
 		7E812DC41F610161007CD13A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DC31F610161007CD13A /* Extensions.swift */; };
@@ -46,7 +45,6 @@
 		7E812DAC1F60FDC6007CD13A /* HNFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNFont.swift; sourceTree = "<group>"; };
 		7E812DB01F60FDC6007CD13A /* HNNotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNNotificationCenter.swift; sourceTree = "<group>"; };
 		7E812DB11F60FDC6007CD13A /* HNPushNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNPushNotification.swift; sourceTree = "<group>"; };
-		7E812DB31F60FDC6007CD13A /* HNRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNRouter.swift; sourceTree = "<group>"; };
 		7E812DB41F60FDC6007CD13A /* HNShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNShare.swift; sourceTree = "<group>"; };
 		7E812DB51F60FDC6007CD13A /* HNUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNUserDefault.swift; sourceTree = "<group>"; };
 		7E812DC31F610161007CD13A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				7E812DAC1F60FDC6007CD13A /* HNFont.swift */,
 				7E812DB01F60FDC6007CD13A /* HNNotificationCenter.swift */,
 				7E812DB11F60FDC6007CD13A /* HNPushNotification.swift */,
-				7E812DB31F60FDC6007CD13A /* HNRouter.swift */,
 				7E812DB41F60FDC6007CD13A /* HNShare.swift */,
 				7E812DB51F60FDC6007CD13A /* HNUserDefault.swift */,
 			);
@@ -216,7 +213,6 @@
 				7E812DC81F6105DA007CD13A /* FileManager+Ext.swift in Sources */,
 				7E812DB81F60FDC6007CD13A /* HNFont.swift in Sources */,
 				7E812DBD1F60FDC6007CD13A /* HNPushNotification.swift in Sources */,
-				7E812DBF1F60FDC6007CD13A /* HNRouter.swift in Sources */,
 				7E812D9A1F60F6EB007CD13A /* ViewController.swift in Sources */,
 				7E812DC61F610565007CD13A /* String+Ext.swift in Sources */,
 				7E812DB71F60FDC6007CD13A /* HNCamera.swift in Sources */,

@@ -8,16 +8,6 @@
 
 import UIKit
 
-extension NSString {
-    public func localized() -> String {
-        return NSLocalizedString(self as String, comment: "")
-    }
-    
-    public func trim() -> String
-    {
-        return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
-    }
-}
 
 extension String {
     public func encode()-> String {
@@ -53,5 +43,16 @@ extension String {
     
     func toBase64() -> String {
         return Data(self.utf8).base64EncodedString()
+    }
+}
+
+extension NSString {
+    public func localized() -> String {
+        return NSLocalizedString(self as String, comment: "")
+    }
+    
+    public func trim() -> String
+    {
+        return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
 }
