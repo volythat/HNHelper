@@ -1,13 +1,12 @@
 //
-//  HNUserDefault.swift
+//  UserDefault+Ext.swift
+//  HNHelper
 //
-//
-//  Created by oneweek on 6/1/17.
+//  Created by oneweek on 9/7/17.
 //  Copyright © 2017 Harry Nguyen. All rights reserved.
 //
 
 import UIKit
-
 
 public enum keyUserDefault {
     case userLogin
@@ -21,7 +20,7 @@ public enum keyUserDefault {
     
 }
 
-class UserDefaultHelper: NSObject {
+extension UserDefaults {
     class func save(_ value: Any,key:keyUserDefault){
         UserDefaults.standard.set(value, forKey: key.rawKey)
         UserDefaults.standard.synchronize()

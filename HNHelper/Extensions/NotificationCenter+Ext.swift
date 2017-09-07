@@ -1,8 +1,8 @@
 //
-//  HNNotificationCenter.swift
+//  NotificationCenter+Ext.swift
+//  HNHelper
 //
-//
-//  Created by oneweek on 3/31/17.
+//  Created by oneweek on 9/7/17.
 //  Copyright © 2017 Harry Nguyen. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 
 public enum NotificationName : String {
     case notificationDetail = "notificationDetail"
-
+    
 }
 
 extension NotificationCenter {
@@ -26,3 +26,4 @@ extension NotificationCenter {
     }
     
 }
+

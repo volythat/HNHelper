@@ -14,11 +14,8 @@
 		7E812DA21F60F6EB007CD13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E812DA01F60F6EB007CD13A /* LaunchScreen.storyboard */; };
 		7E812DB61F60FDC6007CD13A /* HNAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DAA1F60FDC6007CD13A /* HNAlert.swift */; };
 		7E812DB71F60FDC6007CD13A /* HNCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DAB1F60FDC6007CD13A /* HNCamera.swift */; };
-		7E812DB81F60FDC6007CD13A /* HNFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DAC1F60FDC6007CD13A /* HNFont.swift */; };
-		7E812DBC1F60FDC6007CD13A /* HNNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DB01F60FDC6007CD13A /* HNNotificationCenter.swift */; };
 		7E812DBD1F60FDC6007CD13A /* HNPushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DB11F60FDC6007CD13A /* HNPushNotification.swift */; };
 		7E812DC01F60FDC6007CD13A /* HNShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DB41F60FDC6007CD13A /* HNShare.swift */; };
-		7E812DC11F60FDC6007CD13A /* HNUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DB51F60FDC6007CD13A /* HNUserDefault.swift */; };
 		7E812DC41F610161007CD13A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DC31F610161007CD13A /* Extensions.swift */; };
 		7E812DC61F610565007CD13A /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DC51F610565007CD13A /* String+Ext.swift */; };
 		7E812DC81F6105DA007CD13A /* FileManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DC71F6105DA007CD13A /* FileManager+Ext.swift */; };
@@ -30,6 +27,9 @@
 		7E812DD41F61069E007CD13A /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DD31F61069E007CD13A /* Array+Ext.swift */; };
 		7E812DD61F6106B3007CD13A /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DD51F6106B3007CD13A /* Date+Ext.swift */; };
 		7E812DD81F6106CA007CD13A /* UILocalNotification+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DD71F6106CA007CD13A /* UILocalNotification+Ext.swift */; };
+		7E812DDA1F611A6E007CD13A /* NotificationCenter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DD91F611A6E007CD13A /* NotificationCenter+Ext.swift */; };
+		7E812DDC1F611A95007CD13A /* UserDefault+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DDB1F611A95007CD13A /* UserDefault+Ext.swift */; };
+		7E812DDE1F611B06007CD13A /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DDD1F611B06007CD13A /* UIFont+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,11 +42,8 @@
 		7E812DA31F60F6EB007CD13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E812DAA1F60FDC6007CD13A /* HNAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNAlert.swift; sourceTree = "<group>"; };
 		7E812DAB1F60FDC6007CD13A /* HNCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNCamera.swift; sourceTree = "<group>"; };
-		7E812DAC1F60FDC6007CD13A /* HNFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNFont.swift; sourceTree = "<group>"; };
-		7E812DB01F60FDC6007CD13A /* HNNotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNNotificationCenter.swift; sourceTree = "<group>"; };
 		7E812DB11F60FDC6007CD13A /* HNPushNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNPushNotification.swift; sourceTree = "<group>"; };
 		7E812DB41F60FDC6007CD13A /* HNShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNShare.swift; sourceTree = "<group>"; };
-		7E812DB51F60FDC6007CD13A /* HNUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNUserDefault.swift; sourceTree = "<group>"; };
 		7E812DC31F610161007CD13A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7E812DC51F610565007CD13A /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		7E812DC71F6105DA007CD13A /* FileManager+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Ext.swift"; sourceTree = "<group>"; };
@@ -58,6 +55,9 @@
 		7E812DD31F61069E007CD13A /* Array+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
 		7E812DD51F6106B3007CD13A /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		7E812DD71F6106CA007CD13A /* UILocalNotification+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILocalNotification+Ext.swift"; sourceTree = "<group>"; };
+		7E812DD91F611A6E007CD13A /* NotificationCenter+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Ext.swift"; sourceTree = "<group>"; };
+		7E812DDB1F611A95007CD13A /* UserDefault+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefault+Ext.swift"; sourceTree = "<group>"; };
+		7E812DDD1F611B06007CD13A /* UIFont+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +107,8 @@
 			children = (
 				7E812DAA1F60FDC6007CD13A /* HNAlert.swift */,
 				7E812DAB1F60FDC6007CD13A /* HNCamera.swift */,
-				7E812DAC1F60FDC6007CD13A /* HNFont.swift */,
-				7E812DB01F60FDC6007CD13A /* HNNotificationCenter.swift */,
 				7E812DB11F60FDC6007CD13A /* HNPushNotification.swift */,
 				7E812DB41F60FDC6007CD13A /* HNShare.swift */,
-				7E812DB51F60FDC6007CD13A /* HNUserDefault.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -130,6 +127,9 @@
 				7E812DD31F61069E007CD13A /* Array+Ext.swift */,
 				7E812DD51F6106B3007CD13A /* Date+Ext.swift */,
 				7E812DD71F6106CA007CD13A /* UILocalNotification+Ext.swift */,
+				7E812DD91F611A6E007CD13A /* NotificationCenter+Ext.swift */,
+				7E812DDB1F611A95007CD13A /* UserDefault+Ext.swift */,
+				7E812DDD1F611B06007CD13A /* UIFont+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -206,20 +206,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E812DDE1F611B06007CD13A /* UIFont+Ext.swift in Sources */,
+				7E812DDC1F611A95007CD13A /* UserDefault+Ext.swift in Sources */,
 				7E812DCE1F610642007CD13A /* UIView+Ext.swift in Sources */,
 				7E812DB61F60FDC6007CD13A /* HNAlert.swift in Sources */,
 				7E812DD01F610661007CD13A /* UIViewController+Ext.swift in Sources */,
-				7E812DC11F60FDC6007CD13A /* HNUserDefault.swift in Sources */,
 				7E812DC81F6105DA007CD13A /* FileManager+Ext.swift in Sources */,
-				7E812DB81F60FDC6007CD13A /* HNFont.swift in Sources */,
 				7E812DBD1F60FDC6007CD13A /* HNPushNotification.swift in Sources */,
 				7E812D9A1F60F6EB007CD13A /* ViewController.swift in Sources */,
 				7E812DC61F610565007CD13A /* String+Ext.swift in Sources */,
+				7E812DDA1F611A6E007CD13A /* NotificationCenter+Ext.swift in Sources */,
 				7E812DB71F60FDC6007CD13A /* HNCamera.swift in Sources */,
 				7E812DD41F61069E007CD13A /* Array+Ext.swift in Sources */,
 				7E812DC41F610161007CD13A /* Extensions.swift in Sources */,
 				7E812DD81F6106CA007CD13A /* UILocalNotification+Ext.swift in Sources */,
-				7E812DBC1F60FDC6007CD13A /* HNNotificationCenter.swift in Sources */,
 				7E812DCA1F6105F8007CD13A /* NSObject+Ext.swift in Sources */,
 				7E812DCC1F610610007CD13A /* UIColor+Ext.swift in Sources */,
 				7E812DD21F610680007CD13A /* UINavigationController+Ext.swift in Sources */,

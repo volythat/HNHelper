@@ -1,12 +1,10 @@
 //
-//  HNFont.swift
+//  UIFont+Ext.swift
+//  HNHelper
 //
-//
-//  Created by oneweek on 7/6/17.
+//  Created by oneweek on 9/7/17.
 //  Copyright © 2017 Harry Nguyen. All rights reserved.
 //
-
-
 
 //AvenirNext-Bold
 //AvenirNext-BoldItalic
