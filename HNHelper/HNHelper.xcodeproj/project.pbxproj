@@ -30,6 +30,8 @@
 		7E812DDA1F611A6E007CD13A /* NotificationCenter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DD91F611A6E007CD13A /* NotificationCenter+Ext.swift */; };
 		7E812DDC1F611A95007CD13A /* UserDefault+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DDB1F611A95007CD13A /* UserDefault+Ext.swift */; };
 		7E812DDE1F611B06007CD13A /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DDD1F611B06007CD13A /* UIFont+Ext.swift */; };
+		7E812DE01F611EAB007CD13A /* App+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DDF1F611EAB007CD13A /* App+Ext.swift */; };
+		7E812DE21F612396007CD13A /* HNLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E812DE11F612396007CD13A /* HNLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		7E812DD91F611A6E007CD13A /* NotificationCenter+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Ext.swift"; sourceTree = "<group>"; };
 		7E812DDB1F611A95007CD13A /* UserDefault+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefault+Ext.swift"; sourceTree = "<group>"; };
 		7E812DDD1F611B06007CD13A /* UIFont+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
+		7E812DDF1F611EAB007CD13A /* App+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "App+Ext.swift"; sourceTree = "<group>"; };
+		7E812DE11F612396007CD13A /* HNLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				7E812DAB1F60FDC6007CD13A /* HNCamera.swift */,
 				7E812DB11F60FDC6007CD13A /* HNPushNotification.swift */,
 				7E812DB41F60FDC6007CD13A /* HNShare.swift */,
+				7E812DE11F612396007CD13A /* HNLog.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				7E812DD91F611A6E007CD13A /* NotificationCenter+Ext.swift */,
 				7E812DDB1F611A95007CD13A /* UserDefault+Ext.swift */,
 				7E812DDD1F611B06007CD13A /* UIFont+Ext.swift */,
+				7E812DDF1F611EAB007CD13A /* App+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -213,10 +219,12 @@
 				7E812DD01F610661007CD13A /* UIViewController+Ext.swift in Sources */,
 				7E812DC81F6105DA007CD13A /* FileManager+Ext.swift in Sources */,
 				7E812DBD1F60FDC6007CD13A /* HNPushNotification.swift in Sources */,
+				7E812DE01F611EAB007CD13A /* App+Ext.swift in Sources */,
 				7E812D9A1F60F6EB007CD13A /* ViewController.swift in Sources */,
 				7E812DC61F610565007CD13A /* String+Ext.swift in Sources */,
 				7E812DDA1F611A6E007CD13A /* NotificationCenter+Ext.swift in Sources */,
 				7E812DB71F60FDC6007CD13A /* HNCamera.swift in Sources */,
+				7E812DE21F612396007CD13A /* HNLog.swift in Sources */,
 				7E812DD41F61069E007CD13A /* Array+Ext.swift in Sources */,
 				7E812DC41F610161007CD13A /* Extensions.swift in Sources */,
 				7E812DD81F6106CA007CD13A /* UILocalNotification+Ext.swift in Sources */,
